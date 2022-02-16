@@ -28,7 +28,7 @@ const ConnectSection = () => {
           </li>
           <li>
             <a
-              href='https://www.linkedin.com/in/ahmed-ali-bb5197184/'
+              href='https://drive.google.com/file/d/10pNhLWtUxYjhDQLm0oBYgxnSXYyfTykM/view?usp=sharing'
               className={styles.connectSection__link}
             >
               <svg className={styles.connectSection__icon}>
