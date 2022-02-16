@@ -1,0 +1,30 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-radius: 7px;
+  transition: all 250ms ease;
+  background-color: var(--color-red-4);
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.project__title {
+  color: var(--color-yellow-1);
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.project__img-wrapper {
+  width: 30rem;
+  height: 25rem;
+}
+
+.project__img {
+}
+
+.project:hover {
+  transform: scale(1.03);
+}

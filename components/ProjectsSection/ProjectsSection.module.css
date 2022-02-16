@@ -1,0 +1,25 @@
+.projectsSection {
+  padding: 5rem 1rem;
+}
+
+.projectsSection__title {
+  color: var(--color-yellow-3);
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.projectsSection__projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 48em) {
+  .projectsSection__title {
+    text-align: initial;
+  }
+}

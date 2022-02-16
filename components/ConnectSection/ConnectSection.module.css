@@ -1,0 +1,41 @@
+.connectSection {
+  padding: 5rem 1rem;
+}
+
+.connectSection__title {
+  color: var(--color-yellow-3);
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.connectSection__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.connectSection__link {
+  display: flex;
+}
+
+.connectSection__icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: var(--color-red-4);
+  transition: all 250ms ease;
+}
+
+.connectSection__link:hover .connectSection__icon {
+  fill: var(--color-yellow-2);
+}
+
+@media (min-width: 48em) {
+  .connectSection__title {
+    text-align: initial;
+  }
+}
