@@ -7,6 +7,11 @@ const ProjectsSection = () => {
       <h2 className={styles.projectsSection__title}>PROJECTS</h2>
       <div className={styles.projectsSection__projects}>
         <Project
+          title='Discover coffee stores'
+          imgUrl='/images/discover-coffee-stores.png'
+          link='https://discover-coffee-stores-jade.vercel.app/'
+        />
+        <Project
           title='Amazon Clone'
           imgUrl='/images/amazon-clone.png'
           link='https://clone-bd963.web.app'
@@ -15,11 +20,6 @@ const ProjectsSection = () => {
           title='Slack Clone'
           imgUrl='/images/slack-clone.png'
           link='https://slack-clone-b11ab.web.app'
-        />
-        <Project
-          title='Discover coffee stores'
-          imgUrl='/images/discover-coffee-stores.png'
-          link='https://discover-coffee-stores-jade.vercel.app/'
         />
       </div>
     </section>
