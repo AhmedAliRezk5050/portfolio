@@ -16,6 +16,11 @@ const ProjectsSection = () => {
           imgUrl='/images/slack-clone.png'
           link='https://slack-clone-b11ab.web.app'
         />
+        <Project
+          title='Discover coffee stores'
+          imgUrl='/images/discover-coffee-stores.png'
+          link='https://discover-coffee-stores-jade.vercel.app/'
+        />
       </div>
     </section>
   );
