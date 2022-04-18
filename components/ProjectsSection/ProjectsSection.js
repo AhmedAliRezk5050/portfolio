@@ -7,6 +7,11 @@ const ProjectsSection = () => {
       <h2 className={styles.projectsSection__title}>PROJECTS</h2>
       <div className={styles.projectsSection__projects}>
         <Project
+          title='Guest Book'
+          imgUrl='/images/guest-book.png'
+          link='https://guest-book-client.vercel.app/'
+        />
+        <Project
           title='Discover coffee stores'
           imgUrl='/images/discover-coffee-stores.png'
           link='https://discover-coffee-stores-jade.vercel.app/'

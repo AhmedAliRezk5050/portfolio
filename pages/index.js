@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ahmed Ali - Front End Web Developer</title>
+        <title>Ahmed Ali - MERN developer</title>
         <meta
           name='description'
-          content='Ahmed Ali - Front End Web Developer Portfolio'
+          content='Ahmed Ali - MERN developer Portfolio'
         />
       </Head>
       <IntroSection />
